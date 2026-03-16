@@ -24,7 +24,7 @@ margin-bottom:20px;
 /* Quita los puntos de la lista y los pone en fila */
 nav ul {
     list-style: none;
-    
+    display:flex;
     gap: 40px; /* Espacio entre botones */
 }
 nav a {
@@ -41,9 +41,7 @@ footer {
     background: transparent;
     padding: 30px;
     color: #f5f5f5;
-    font-size: 0.9rem;
-    border-top: 1px solid #550300; /* Línea sutil arriba */
-    box-shadow: 0px -10px 20px rgba(85, 3, 0, 0.3); /* ¡El resplandor! */
     text-transform: uppercase;
     letter-spacing: 3px; /* Estilo elegante */
+    border: 2px solid rgb(165, 65, 65);
 }
